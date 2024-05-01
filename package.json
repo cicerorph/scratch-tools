@@ -1,0 +1,21 @@
+{
+  "name": "scratch-tools",
+  "version": "1.0.0",
+  "description": "Tools for interacting with Scratch, including API and cloud variables",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"No test specified\" && exit 0"
+  },
+  "keywords": [
+    "scratch",
+    "api",
+    "cloud",
+    "tools"
+  ],
+  "author": "MubiLop",
+  "license": "MIT",
+  "dependencies": {
+    "node-fetch": "^3.0.0",
+    "ws": "^8.5.0"
+  }
+}
