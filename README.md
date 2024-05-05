@@ -15,8 +15,7 @@ npm install scratchattach.js
 ### Example
 
 ```javascript
-const CloudClient = require('scratchattach.js').CloudClient;
-const Session = require('scratchattach.js').Session;
+const { CloudClient, Session } = require('scratchattach.js');
 
 async function start() {
     const user = await Session.create("UserName", "Password");
